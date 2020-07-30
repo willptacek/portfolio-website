@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'Conv_Helvetica-Narrow_22496';
+	src: url('fonts/Helvetica-Narrow_22496.eot');
+	src: local('☺'), url('fonts/Helvetica-Narrow_22496.woff') format('woff'), url('fonts/Helvetica-Narrow_22496.ttf') format('truetype'), url('fonts/Helvetica-Narrow_22496.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 20px;
+  margin-left: 1rem;
+  display: none;
+  color: black;
+
+  padding-bottom: 0.3rem;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:visited {
+  color: black;
+}
+
+.big-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family:'Conv_Helvetica-Narrow_22496',Sans-Serif;
+}
+
+#rotating-logo {
+  height: 50%;
+  width: 23%;
+}
+
+
+#navigator {
+  /* position: relative;
+  left: 20%; */
+  margin: 2rem;
+}
+
+#right-text {
+  height: 217.6px;
+  width: 799.15px;
+  border: solid 3.15px;
+}
+
+#right-text p {
+  font-size: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.flex-container-navigator {
+  display: flex;
+}
+
+#left-identifier {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-identifier img {
+  display: inline;
+  cursor: pointer;
+}
+
+.arrow-top {
+  position: absolute;
+  top: 24.5%;
+  transform: rotate(180deg);
+  margin-bottom: 1rem;
+}
+
+.arrow-bot {
+  margin-top: 1rem;
+}
+
+#box {
+  height: 218px;
+  width: 218px;
+  border: solid 3.15px;
+}
+
+#box p {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  font-size: 30px;
+}
+
+.flex-container-navbar {
+  display: flex;
+}
+
+.flex-container-navbar > p {
+  padding: 1.5rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.flex-container-navbar > p:hover{
+  color: gray;
+}
+
+.logo {
+  margin-top: 3rem;
+  width: 10%;
+  height: 10%;
+  transform: scale(1, 0.5);
+}
+
+.copyright {
+  transform: scale(2, 0.8);
+}
