@@ -24,7 +24,7 @@ const proj2Site = document.querySelector('.proj2-site');
 
 linkedinAbout.style.display = 'block';
 githubAbout.style.display = 'block';
-topArrow.style.display = 'none';
+topArrow.style.opacity = '0';
 
 
 
@@ -59,7 +59,8 @@ topArrow.addEventListener('click', cycleUp);
 botArrow.addEventListener('click', cycleDown);
 aboutNav.addEventListener('click', navigate);
 eduNav.addEventListener('click', navigate);
-skillNav.addEventListener('click', navigate);workNav.addEventListener('click', navigate);
+skillNav.addEventListener('click', navigate);
+workNav.addEventListener('click', navigate);
 proj1Nav.addEventListener('click', navigate);
 proj2Nav.addEventListener('click', navigate);
 intNav.addEventListener('click', navigate);
@@ -69,18 +70,19 @@ function clearLinks() {
   githubAbout.style.display = 'none';
   proj1Psd.style.display='none';
   proj2Psd.style.display='none';
+  proj2Site.style.display='none';
 }
 
 function determineLinks(posNum) {
   if(posNum != 0) {
-    topArrow.style.display = 'block';
+    topArrow.style.opacity = '100';
   }
   if(posNum != 6) {
     botArrow.style.visibility = 'visible';
   }
   switch (posNum){
     case 0:
-      topArrow.style.display = 'none';
+      topArrow.style.opacity= '0';
       linkedinAbout.style.display = 'block';
       githubAbout.style.display = 'block';
       break;
