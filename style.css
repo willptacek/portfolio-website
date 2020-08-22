@@ -17,7 +17,6 @@ a {
   margin-left: 1rem;
   display: none;
   color: black;
-
   padding-bottom: 0.3rem;
 }
 
@@ -41,8 +40,7 @@ body {
 }
 
 #rotating-logo {
-  height: 50%;
-  width: 23%;
+  height: 250px;
 }
 
 
@@ -83,17 +81,21 @@ body {
 }
 
 .arrow-top {
-  position: absolute;
-  top: 24.5%;
+  position: relative;
+  top: -15%;
   transform: rotate(180deg);
   margin-bottom: 1rem;
 }
 
 .arrow-bot {
+  positioN: relative;
+  top: -15%;
   margin-top: 1rem;
 }
 
 #box {
+  position: relative;
+  top: -15.5%;
   height: 218px;
   width: 218px;
   border: solid 3.15px;
@@ -130,3 +132,8 @@ body {
 .copyright {
   transform: scale(2, 0.8);
 }
+
+/* .arrow-top,
+.arrow-bot {
+  visibility: hidden;
+} */
