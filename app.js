@@ -20,6 +20,7 @@ const linkedinAbout = document.querySelector('#linkedinAbout');
 const githubAbout = document.querySelector('#githubAbout');
 const proj1Psd = document.querySelector('.proj1');
 const proj2Psd = document.querySelector('.proj2');
+const proj2site = document.querySelector('.proj2-site);
 
 linkedinAbout.style.display = 'block';
 githubAbout.style.display = 'block';
@@ -43,7 +44,7 @@ const skillDescription = 'proficient in adobe photoshop, c++, html5, and css3.  
 const workDescription = `logistics coordinator @ magna transport solutions, chicago IL(may - august 2019)
 tracked up to 40 shipments per day through calling and emailing over 30 trucking carriers. input shipment specific information into a transport management software to enable swift tracking after hours. used a transport management software to update shipments with locations received from trucking carriers. coordinated information about shipments to three different departments within the company.`;
 const proj1Description = `this portfolio website.  created wireframe mockup in photoshop first, then coded in pure html, css, and javascript.  all assets created from scratch in photoshop and blender.  started work july 29 2020, completed july 29 2020. `
-const proj2Description = `currently under development.  created wireframe mockup in photoshop in may 2020.  project is named ‘recovered.media’, a virtual gallery space to host 6 of my photographs.`;
+const proj2Description = `'shoppe demo', a concept web shop.  i first created a comprehensive wireframe mockup in photoshop, then implemented the basic layout and design in html and css.  i then used javascript to add more functionality, including a custom cart system.  the goal of the project was to capture the y2k aesthetic, and potentially give it to a brand down the road to use with their products.`;
 const intDescription = 'i am interested in the design aspect of web development and how websites can be their own art form themselves.  i love graphic design and its relationship to technology as well.  i like to skateboard, listen to new music, and play league of legends on the side.';
 
 const descriptionList = [aboutDescription, eduDescription, skillDescription, workDescription, proj1Description, proj2Description, intDescription];
@@ -88,6 +89,7 @@ function determineLinks(posNum) {
       break;
     case 5:
       proj2Psd.style.display='block';
+      proj2site.style.display='block';
       break;
     case 6:
       botArrow.style.visibility = 'hidden';
