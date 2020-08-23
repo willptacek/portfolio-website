@@ -37,6 +37,7 @@ a:visited {
 
 body {
   font-family:'Conv_Helvetica-Narrow_22496',Sans-Serif;
+  overflow: hidden
 }
 
 #rotating-logo {
