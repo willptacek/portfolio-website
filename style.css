@@ -138,3 +138,53 @@ body {
 .arrow-bot {
   visibility: hidden;
 } */
+
+/* smartphone */
+@media(max-width: 500px){
+  body {
+    font-family:'Conv_Helvetica-Narrow_22496',Sans-Serif;
+    overflow: visible;
+  }
+
+  .big-flex {
+    align-items: center;
+  }
+  #right-text {
+    height: 496px;
+    width: 80%;
+  }
+
+  #rotating-logo {
+    position: absolute;
+    height: 100px;
+    top: 0;
+    left: -3%;
+  }
+
+  #box {
+    height: 50%;
+  }
+
+  #box p {
+    font-size: 13px;
+    font-stretch: expanded;
+    transform:scale(2,1);
+  }
+
+  .flex-container-navigator {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-container-navbar {
+    flex-direction: column;
+  }
+
+  .flex-container-navbar > p {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}
+
